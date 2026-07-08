@@ -2,7 +2,7 @@ name: News_site
 
 on:
     push:
-        branches: [main]
+        branches: [stg]
     workflow_dispatch:
 
 permissions:
