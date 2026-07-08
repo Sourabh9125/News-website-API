@@ -27,7 +27,7 @@ jobs:
             - name: Deploying Artifacts
               uses: actions/upload-pages-artifact@v4
               with: 
-                paths: '.'
+                path: '.'
 
             - name: Deploy Application
               uses: actions/deploy-pages@v4
